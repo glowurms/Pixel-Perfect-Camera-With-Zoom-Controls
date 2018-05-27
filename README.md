@@ -55,7 +55,7 @@ Cache the `PerfectPixelWithZoom` Object with `GetComponent<PerfectPixelWithZoom>
 Call any of the public properties and methods in your script to adjust the Camera.
 
 ### Properties
-- **currentZoomScale** - Returns the current zoom scale. *Note:* Can be a value between transitions, but you probably will usually want to use a whole number.
+- **currentZoomScale** - Returns the current zoom scale. *Note:* Can possibly return a value between transitions instead of whole number depending on if the smooth transition is actively happening.
 
 ### Public Methods
 - **SetPixelsPerUnit(int)** - This should be the same value used for all of the sprites in your scene.
