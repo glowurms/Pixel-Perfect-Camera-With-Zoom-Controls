@@ -16,11 +16,11 @@ Clone this repository and open the `PixelPerfectCameraWithZoomControls` as a pro
 
 ## Simple Use:
 
-Drag the PerfectPixelWithZoom script onto your Main Camera.
+Drag the `PerfectPixelWithZoom.cs` script onto your Main Camera.
 
 Go to the `Perfect Pixel With Zoom` component and edit the Fields.
 - Pixels Per Unit - This should be the same value used for all of the sprites in your scene.
-- Zoom Scale Max - Clamps the upper limit of zoom between 1 and this value.
+- Zoom Scale Max - Sets the upper limit of zoom.
 - Zoom Scale Start - Sets the initial zoom scale on Start.
 - Smoov Zoom - Toggle on to smooth the transition between zoom levels.
 - Smoov Zoom Duration - Time in seconds it takes the smoothed zoom to go from the current value to the next.
