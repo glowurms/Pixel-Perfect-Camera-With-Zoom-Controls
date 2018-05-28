@@ -2,7 +2,7 @@
 For 2D Games with the Unity Game Engine.
 
 ## Description
-There's a lot of shenanigans when it comes to working with pixel perfect display of sprites in Unity, especially when you're rolling your own solution. You can use this to avoid displaying irregularly rectangular pixels.
+There's a lot of shenanigans when it comes to working with pixel perfect display of sprites in Unity, especially when you're rolling your own perfect pixel solution. You can use this to avoid displaying irregularly rectangular pixels.
 
 This camera component:
 - Automatically adjusts to screen height even after changing the display size.
@@ -11,11 +11,12 @@ This camera component:
 - Optional smooth zooming between zoom levels over a duration.
 
 ## Installation
-Copy the `PixelPerfectCameraWithZoomControls` folder into your `Assets` folder.
-**Note:**The only absolutely required item should be the `PerfectPixelWithZoom.cs`.
+Clone or download this repository to your machine.
+Copy the `Assets/PixelPerfectCameraWithZoomControls` folder into your `Assets` folder.
+**Note:**The only absolutely required script should be the `PerfectPixelWithZoom.cs`.
 
-## Sample Project
-Clone this repository and open the `PixelPerfectCameraWithZoomControls` as a project with Unity, then hit the Play button to activate play mode to see it in action.
+## Demo Project:
+Clone this repository and open the `Pixel-Perfect-Camera-With-Zoom-Controls` as a project with Unity, then bring the `Pixel Perfect Camera With Zoom Controls` scene into the Hierarchy. Disable any other scenes and hit the Play button to activate play mode to see it in action.
 - 3 Sprite examples will display with pixel densities:
   - 32 pixels per unit in the upper left
   - 64 pixels per unit in the upper right
@@ -41,14 +42,14 @@ Go to the `Perfect Pixel With Zoom` component on the Main Camera and edit the Fi
 
 Enter Play mode and scroll the mouse wheel back and forth.
 
-## Advanced Info
+## Advanced Info:
 Attach the `PerfectPixelWithZoom.cs` as a component to the desired Camera.
 
 ### Control via Button/Toggle triggers
 Be sure an Event System is in place or the buttons won't work.
 Add an On Click () or On Value Changed (boolean) to the list in the inspector.
 Link the Camera containing the `PerfectPixelWithZoom` component.
-Select functions (methods) from the `` list.
+Select functions (methods) from the `PerfectPixelWithZoom` list.
 
 ### Control via code
 Cache the `PerfectPixelWithZoom` Object with `GetComponent<PerfectPixelWithZoom>()` in your script.
