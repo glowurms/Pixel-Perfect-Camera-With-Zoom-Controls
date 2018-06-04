@@ -1,5 +1,5 @@
 # Perfect Pixel Camera With Zoom Tools
-For 2D Games with the Unity Game Engine.
+For 2D Games with the Unity Game Engine. Tested on version 2017.1.1. Usage on other versions may still work.
 
 ## Description
 There's a lot of shenanigans when it comes to working with pixel perfect display of sprites in Unity, especially when you're rolling your own perfect pixel solution. You can use this to avoid displaying irregularly rectangular pixels.
